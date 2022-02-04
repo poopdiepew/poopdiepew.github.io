@@ -20,7 +20,7 @@ const search = document.createElement('textArea');
 search.style.overflowWrap = 'true';
 search.style.textOverflow = 'false';
 search.style.height = '30vh';
-search.style.width =  '75vw';
+search.style.width =  '40vw';
 search.style.fontSize = '24px';
 search.style.borderRadius = '16px';
 
@@ -38,7 +38,7 @@ submit.addEventListener('click', e=>{
 const output = document.createElement('textArea');
 output.style.textOverflow = 'false';
 output.style.height = '30vh';
-output.style.width =  '75vw';
+output.style.width =  '40vw';
 output.style.fontSize = '24px';
 output.readOnly = 'true';
 output.style.borderRadius = '16px';

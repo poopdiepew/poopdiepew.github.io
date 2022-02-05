@@ -3,6 +3,26 @@ const memearr = [];
 for(var i = 128511; i<128592; i++){
   memearr.push(i);
 }
+memearr.push(128175);
+memearr.push(128170);
+memearr.push(128169);
+memearr.push(128166);
+memearr.push(128148);
+memearr.push(128149);
+memearr.push(128152);
+memearr.push(128139);
+memearr.push(128681);
+memearr.push(128720);
+memearr.push(129296);
+memearr.push(129297);
+memearr.push(129298);
+memearr.push(129299);
+memearr.push(129300);
+memearr.push(129301);
+memearr.push(129303);
+for(var i = 129312; i<129330; i++){
+  memearr.push(i);
+}
 
 //background
 const body = document.querySelector('body');

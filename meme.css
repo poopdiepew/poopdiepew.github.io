@@ -1,0 +1,26 @@
+body{
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+div{
+  height: 80vh;
+  width: 40vw;
+  flex-shrink: 1;
+}
+textarea{
+  height: 30vh;
+  width: 40vw;
+  font-size: 24px;
+}
+
+@media (max-width: 500px) {
+  
+  textarea{
+    width: 80vw;
+    font-size: 20px;
+  }
+  div{
+    width: 90vw;
+  }
+}
